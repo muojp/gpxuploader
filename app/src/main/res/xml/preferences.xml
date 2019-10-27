@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+    <EditTextPreference
+        app:key="clientId"
+        app:title="client id" />
+    <EditTextPreference
+        app:key="clientSecret"
+        app:title="client secret" />
+    <EditTextPreference
+        app:key="accessToken"
+        app:title="access token (optional)" />
+    <EditTextPreference
+        app:key="refreshToken"
+        app:title="refresh token (optional)" />
+</PreferenceScreen>
